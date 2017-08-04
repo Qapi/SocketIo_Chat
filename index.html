@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<ul id="messages"><h2 id="title">消息列表 | 在线人数：<b id="onlineNum"></b></h2>
+    <hr>
+</ul>
+<form action="">
+    <input id="m" autocomplete="off"/>
+    <button type="submit">Send</button>
+</form>
+<script src="/socket.io/socket.io.js"></script>
+<script src="jquery-1.8.3.js"></script>
+<script src="client.js"></script>
+</body>
+</html>
